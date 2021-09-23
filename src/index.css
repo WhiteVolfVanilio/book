@@ -1,0 +1,94 @@
+body{
+  background: linear-gradient(
+    45deg,    
+    rgb(238, 229, 243) 0%,
+    rgb(25, 22, 31) 100%
+  );
+}
+.App {
+  text-align: center;
+  
+}
+
+.App .item-book {
+  padding: 14px;
+  width: 450px;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 15px;
+  background: linear-gradient(
+    90deg,
+    rgb(19, 17, 18) 0%,
+    rgb(56, 33, 63) 100%
+  );
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.App .item-book .item-text {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.App input {
+  margin: 0px 0px 0px 0px;
+  padding: 2px 3px 4px 5px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #5d0cff;
+  background:  linear-gradient(
+    45deg,    
+    rgb(238, 229, 243) 0%,
+    rgb(25, 22, 31) 100%
+  );
+  color: rgb(116, 67, 67);
+  outline: none;
+  background: transparent;
+  width: 100%;
+}
+
+.App button {
+  width: 100%;
+  padding: 16px 7px;
+  border: none;
+  border-radius: 82px 0 82px 0;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgb(86, 81, 95) 0%,
+    rgb(47, 25, 61) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+}
+.App .item-book .item-delete {
+ cursor: pointer;
+  float: right;
+  font-size: 22px;
+  position: relative;
+  padding: 16px 7px;
+  border: none;
+  border-radius: 0 0 82px 0;
+  cursor: pointer;
+  outline: none;
+  left: 80px;
+  background: linear-gradient(
+    90deg,
+    rgb(86, 81, 95) 0%,
+    rgb(47, 25, 61) 100%
+  );
+  color: #fff;
+}.app .item-new-form  {
+  padding: 14px;
+  width: 450px;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 15px;
+  background: rgb(177, 110, 162);
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
